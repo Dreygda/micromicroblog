@@ -13,7 +13,7 @@ def redirection():
 
 @app.route('/blog/', methods=['GET', 'POST'])
 def micro_micro():
-    return render_template('template.php')
+    return render_template('index.php')
 
 def data(): 
     now = datetime.now()
